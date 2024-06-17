@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure full viewport height */
+}
+
+#app {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Limit width for better readability */
+  width: 100%;
+  margin: 20px; /* Add margin for breathing space */
+}
+
+.subject {
+  margin-bottom: 20px; /* Increased margin between sections */
+}
+
+.subject label {
+  display: block; /* Display labels as block to ensure they are on their own line */
+  margin-bottom: 5px; /* Add space between label and input */
+}
+
+.subject input {
+  width: calc(100% - 10px); /* Calculate input width minus some margin */
+  padding: 8px; /* Add padding for input */
+  border: 1px solid #ccc; /* Add border for input */
+  border-radius: 4px; /* Rounded corners for input */
+}
+
+button {
+  cursor: pointer;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-right: 10px; /* Add margin between buttons */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#madeByMe {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000000;
+}
+
+#madeByMe p {
+  margin: 0;
+}
